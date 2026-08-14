@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0A0B12">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, Guardian"
+        android:textColor="#EEF1FB"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starting guardian…"
+        android:textColor="#37D39B"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/measureBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="❤ Measure heart rate" />
+
+    <Button
+        android:id="@+id/sosBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF5C72"
+        android:text="🚨 Send SOS now" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#242A48"
+        android:text="Log out" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Guardian keeps location + SOS running in the background. Heart rate needs the camera."
+        android:textColor="#6B759B"
+        android:textSize="11sp" />
+</LinearLayout>

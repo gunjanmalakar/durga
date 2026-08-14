@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0B12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create account"
+            android:textColor="#EEF1FB"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText android:id="@+id/rUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username" android:textColorHint="#6B759B" android:textColor="#EEF1FB" android:inputType="text" />
+        <EditText android:id="@+id/rPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password (min 6)" android:textColorHint="#6B759B" android:textColor="#EEF1FB" android:inputType="textPassword" />
+        <EditText android:id="@+id/rName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Full name" android:textColorHint="#6B759B" android:textColor="#EEF1FB" android:inputType="textPersonName" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gender" android:textColor="#93A0C4" android:layout_marginTop="10dp" />
+        <Spinner android:id="@+id/rGender" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/rEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email (optional)" android:textColorHint="#6B759B" android:textColor="#EEF1FB" android:inputType="textEmailAddress" />
+        <EditText android:id="@+id/rPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Your mobile (for recovery)" android:textColorHint="#6B759B" android:textColor="#EEF1FB" android:inputType="phone" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Emergency contact 1 (required)" android:textColor="#93A0C4" android:layout_marginTop="14dp" />
+        <EditText android:id="@+id/rC1Name" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Contact name" android:textColorHint="#6B759B" android:textColor="#EEF1FB" android:inputType="textPersonName" />
+        <EditText android:id="@+id/rC1Phone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Contact phone (with country code)" android:textColorHint="#6B759B" android:textColor="#EEF1FB" android:inputType="phone" />
+
+        <Button android:id="@+id/registerBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="Create account" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Durga" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#7B8CFF</item>
+        <item name="colorPrimaryVariant">#5A6BFF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#22D3EE</item>
+        <item name="android:statusBarColor" tools:targetApi="21">#0A0B12</item>
+        <item name="android:windowBackground">#0A0B12</item>
+    </style>
+</resources>
